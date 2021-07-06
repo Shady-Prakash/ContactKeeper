@@ -58,7 +58,7 @@ const ContactState = (props) => {
 	// Clear Filter
 
 	return (
-		<ContactContext.Provider value={{contacts: state.ContactState}}>
+		<ContactContext.Provider value={{contacts: state.contacts}}>
 			{props.children}
 		</ContactContext.Provider>
 	);
